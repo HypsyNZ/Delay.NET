@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0.3</Version>
-    <AssemblyVersion>1.0.0.3</AssemblyVersion>
-    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.0.4</Version>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
     <Authors>S Christison</Authors>
     <Company>S Christison</Company>
     <Copyright>S Christison ©2023</Copyright>
@@ -36,7 +36,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DebugType>none</DebugType>
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
